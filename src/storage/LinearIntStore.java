@@ -17,7 +17,7 @@ public class LinearIntStore {
   //When you name a small number of variables well, don't "overdocument" them.
   private int numElements;
   private int[] data;
-  private static final int INITIAL_CAPACITY = 8; //must be at least 1
+  private static final int INITIAL_CAPACITY = 16; //must be at least 1
 
   /**
    * Create a new LinearIntStore with no stored data.
